@@ -36,9 +36,9 @@ const responsiveSettings = [
 ];
 
   const slideImages = [
-    '/hex_1.png',
-    '/pulsex_32.png',
-    '/inc_8.png',
+    'hex_1.png',
+    'pulsex_32.png',
+    'inc_8.png',
     'pulse_19.png',
   ];
 
