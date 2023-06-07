@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className="bg-[url('/background.jpg')] bg-no-repeat bg-cover bg-center bg-fixed">
+      <body className="bg-no-repeat bg-cover bg-center bg-fixed" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/background.jpg)` }}>
         <Main />
         <NextScript />
       </body>
