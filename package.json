@@ -1,7 +1,8 @@
 {
   "name": "mintfolio",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://github.com/RobotMasterxo/PulseRocks",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
