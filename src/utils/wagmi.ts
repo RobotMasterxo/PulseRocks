@@ -56,7 +56,7 @@ export const { chains, provider } = configureChains(
   ]
 );
 const { connectors } = getDefaultWallets({
-  appName: "mintfolio",
+  appName: "PulseRocks",
   chains,
 });
 const wagmiClient = createClient({
