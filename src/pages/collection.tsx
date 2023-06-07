@@ -6,11 +6,7 @@ import { Image } from "@chakra-ui/react";
 import { useState } from "react";
 import { useAccount, useContractRead } from "wagmi";
 import { CONTRACT_ADDRESS, abi } from "@/contract/contract";
-import {
-  ThirdwebNftMedia,
-  useNFTCollection,
-  useNFTs,
-} from "@thirdweb-dev/react";
+
 
 
 interface BalanceCardProps {
