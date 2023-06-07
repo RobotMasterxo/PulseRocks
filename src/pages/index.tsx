@@ -110,7 +110,7 @@ const Home: NextPage = () => {
           <div className="md:flex hidden my-auto w-[30%] md:w-[60%] ml-10 items-end">
             <div className="animate-bounce">
               <Image
-                src="/mintNFT.png"
+                src="mintNFT.png"
                 width={500}
                 height={450}
                 className="ml-10"
