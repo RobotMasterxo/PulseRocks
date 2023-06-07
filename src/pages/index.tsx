@@ -151,7 +151,7 @@ const Home: NextPage = () => {
             />
             <FeatureCard
               icon={<FaRegCommentDots size={25} />}
-              title="Inspired on 4 tokens."
+              title="Inspired by 4 tokens."
               desc="NFTs Rocks, a revolutionary creation inspired by 4 tokens, incentive, pulse, pulsex and the greatest of them all HEX"
             />
             <FeatureCard
