@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+.slide-container {
+  display: grid;
+  place-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.each-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
